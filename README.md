@@ -6,3 +6,6 @@ Design consideration Model: The cube's 3D model will be designed to visually rep
 
 
 RIGHT NOW RUBIKS CUBE DOES NOT ROTATE!!!
+
+
+TO RUN CODE DOWNLOAD ALL FILES AND RUN THE RubiksCube2x2.cpp CODE 
