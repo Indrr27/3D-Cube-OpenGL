@@ -1,11 +1,38 @@
-The objective of the project is to use OpenGL to create a 2x2 Rubik's Cube. This program will be an interactive tool that offers users a way to handle a simulated Rubik's Cube along with features that help with puzzle comprehension and solution. The simulation will include cube solving algorithms, interaction with users, and graphic rendering.
+# 2x2 Rubik's Cube Simulation
 
-Problem solving and algorithms: Cube Representation: The cube will be represented as a 3D model with each mini-cube (or cubie) having distinct colors on its faces. Rotation Logic: Implementing algorithms that accurately rotate the faces and the whole cube while maintaining the state of each face. Solving Algorithm: An optional feature that provides users with step-by-step solutions based on the cube's current state. User Interaction: Handling user inputs to rotate the cube and shuffle it.
+## Overview
 
-Design consideration Model: The cube's 3D model will be designed to visually replicate a real 2x2 Rubik's Cube, with each mini-cube rendered in 3D and colored appropriately. View: A graphical user interface (GUI) will allow users to view the cube from different angles and interact with it. The view will be implemented using OpenGL, providing a real-time 3D rendering of the cube. Controller: The application will handle user inputs for cube rotations, shuffling, and solving. It will include keyboard and mouse controls for a more intuitive interaction.
+The objective of this project is to use OpenGL to create an interactive 2x2 Rubik's Cube simulation. This program provides users with a tool to manipulate a simulated Rubik's Cube, enhancing puzzle comprehension and solution. The simulation includes cube-solving algorithms, user interaction, and graphic rendering.
 
+## Features
 
-RIGHT NOW RUBIKS CUBE DOES NOT ROTATE!!!
+### Problem Solving and Algorithms
 
+- **Cube Representation:** The cube is represented as a 3D model, with each mini-cube (cubie) having distinct colors on its faces.
+- **Rotation Logic:** Algorithms accurately rotate the faces and the whole cube while maintaining the state of each face.
+- **Solving Algorithm:** An optional feature provides users with step-by-step solutions based on the cube's current state.
+- **User Interaction:** Handles user inputs to rotate and shuffle the cube.
 
-TO RUN CODE DOWNLOAD ALL FILES AND RUN THE RubiksCube2x2.cpp CODE 
+### Design Considerations
+
+- **Model:** The cube's 3D model visually replicates a real 2x2 Rubik's Cube, with each mini-cube rendered in 3D and appropriately colored.
+- **View:** A graphical user interface (GUI) allows users to view the cube from different angles and interact with it. The view is implemented using OpenGL, providing real-time 3D rendering.
+- **Controller:** The application handles user inputs for cube rotations, shuffling, and solving. It includes keyboard and mouse controls for intuitive interaction.
+
+**Note:** Currently, the Rubik's Cube does not rotate.
+
+## Getting Started
+
+### Prerequisites
+
+- OpenGL
+- A C++ compiler
+
+### Running the Code
+
+1. **Download All Files:** Ensure all files from the repository are downloaded.
+2. **Run the Code:** Execute the `RubiksCube2x2.cpp` file.
+
+```sh
+g++ -o RubiksCube2x2 RubiksCube2x2.cpp -lGL -lGLU -lglut
+./RubiksCube2x2
